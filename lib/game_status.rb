@@ -35,10 +35,12 @@ def won?(board)
 end
 
 def full?(board)
-  if board.any?(|square|
-      square == " " || square == "" || square == nil
+  if board.all?{|square|
+      if square == " " || square == "" || square == nil
       return false
-    )
+      else
+      return true
+      end
+    }
   end
-  return true
 end
