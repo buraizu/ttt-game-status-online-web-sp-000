@@ -12,5 +12,5 @@ WIN COMBINATIONS = [
   [2,4,6],  # Diagonal Left
   [0,3,6],  # Left Column
   [1,4,7],  # Middle Column
-  [2,5,8]  # Right Column
+  [2,5,8]   # Right Column
 ]
