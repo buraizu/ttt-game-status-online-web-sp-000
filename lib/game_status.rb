@@ -36,10 +36,10 @@ end
 
 def full?(board)
   if board.all?{|square|
-      if square == " " || square == "" || square == nil
-      return false
-      else
+      if square == "X" || square == "Y"
       return true
+      else
+      return false
       end
     }
   end
